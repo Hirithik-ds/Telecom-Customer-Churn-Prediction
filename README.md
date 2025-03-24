@@ -69,8 +69,27 @@ In the telecom industry, customers are able to choose from a pool of companies t
 - Payment Method: Customers using electronic checks have the highest churn, suggesting that automatic payments (bank transfers, credit cards) lead to better retention.
 - Senior Citizens: Older customers (Senior Citizen = 1) have a higher churn rate proportionally compared to younger customers, indicating a potential demographic risk factor.
 
+# 🥇 Best Model Selection
+
+After evaluating all models, the Random Forest Regressor was chosen as the best performer. It demonstrated superior accuracy and could handle a wide range of data distributions and feature interactions. The Random Forest model outperformed the others in key metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-Squared (R²) and Adjusted R-Squared (R²).
+
+This model was selected for its ability to generalize well on unseen data while remaining stable and robust in different scenarios.
+
+# 🧩 Feature Importance
+
+One key advantage of the **Random Forest model & XGBoost algorithm** is its ability to highlight the importance of different features in predicting the Churn . A feature importance plot was created to show which features had the most influence on price prediction.
+
+**Random Forest:**
+![image](https://github.com/user-attachments/assets/345fe39c-1a85-4f6d-b094-f3a11c60b4ce)
+
+**XGBoost:**
+![image](https://github.com/user-attachments/assets/79c2f7ce-31c4-473b-afd9-2cd1b48483f4)
 
 
+
+# 📝 Conclusion:
+
+The project successfully demonstrated the ability to predict Telecom Churn  using machine learning techniques. The insights gained from the analysis can be valuable for  alike in understanding the dynamics of Telecom industry.
 
 
 
