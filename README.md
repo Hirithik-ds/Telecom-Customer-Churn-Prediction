@@ -69,9 +69,18 @@ In the telecom industry, customers are able to choose from a pool of companies t
 - Payment Method: Customers using electronic checks have the highest churn, suggesting that automatic payments (bank transfers, credit cards) lead to better retention.
 - Senior Citizens: Older customers (Senior Citizen = 1) have a higher churn rate proportionally compared to younger customers, indicating a potential demographic risk factor.
 
+# Y-Data Profiling:
+
+Apart from the the analysis above , I have also performed Y-Data Profiling for more details.
+(Note : Data profiling is the process of examining, analyzing, and summarizing data to understand its structure, quality, and potential issues before performing analysis or modeling. It helps in identifying inconsistencies, missing values, and patterns in the dataset.)
+Link : file:///C:/Users/hirit/Downloads/report%20(1).html
+Sample Image :
+![image](https://github.com/user-attachments/assets/f5940e6f-1b35-4f19-80de-a7530b85dca6)
+
+  
 # 🥇 Best Model Selection
 
-After evaluating all models, the Random Forest Regressor was chosen as the best performer. It demonstrated superior accuracy and could handle a wide range of data distributions and feature interactions. The Random Forest model outperformed the others in key metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-Squared (R²) and Adjusted R-Squared (R²).
+After evaluating all models, the Random Forest was chosen as the best performer. It demonstrated superior accuracy and could handle a wide range of data distributions and feature interactions. The Random Forest model outperformed the others in key metrics such as COnfusion Matrix, Precision, Recall, F1-Score and AUC curve.
 
 This model was selected for its ability to generalize well on unseen data while remaining stable and robust in different scenarios.
 
@@ -85,7 +94,13 @@ One key advantage of the **Random Forest model & XGBoost algorithm** is its abil
 **XGBoost:**
 ![image](https://github.com/user-attachments/assets/79c2f7ce-31c4-473b-afd9-2cd1b48483f4)
 
+# Model Performance:
 
+![image](https://github.com/user-attachments/assets/7c3efeda-07bf-4fa8-94bb-753cd6c450a4)
+
+- XGBoost is the best model in terms of test accuracy.
+- Random Forest is marginally better than Logistic Regression, meaning tree-based models are slightly more effective in capturing churn patterns.
+- Logistic Regression is not far behind, indicating that churn data may still have a strong linear relationship
 
 # 📝 Conclusion:
 
