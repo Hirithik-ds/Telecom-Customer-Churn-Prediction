@@ -71,10 +71,13 @@ In the telecom industry, customers are able to choose from a pool of companies t
 
 # Y-Data Profiling:
 
-Apart from the the analysis above , I have also performed Y-Data Profiling for more details.
-(Note : Data profiling is the process of examining, analyzing, and summarizing data to understand its structure, quality, and potential issues before performing analysis or modeling. It helps in identifying inconsistencies, missing values, and patterns in the dataset.)
-Link : file:///C:/Users/hirit/Downloads/report%20(1).html
-Sample Image :
+- Apart from the the analysis above , I have also performed Y-Data Profiling for more details.
+- (Note : Data profiling is the process of examining, analyzing, and summarizing data to understand its structure, quality, and potential issues before performing analysis or modeling. It helps in identifying inconsistencies, missing values, and patterns in the dataset.)
+- Link : file:///C:/Users/hirit/Downloads/report%20(1).html
+
+
+**Sample Image :**
+
 ![image](https://github.com/user-attachments/assets/f5940e6f-1b35-4f19-80de-a7530b85dca6)
 
   
